@@ -1,0 +1,72 @@
+.aboutme{
+    font-family: 'Josefin Sans', serif;
+    padding: 15px;
+    position: absolute;
+    left: 20%;
+    bottom: 43%;
+    box-sizing: border-box;
+    
+
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+.aboutme p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Josefin Sans', serif;
+}
+#main{
+    padding: 30px 50px;
+    position: relative;
+    font-family: 'Josefin Sans', serif;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: 1440px;
+    background-position: right bottom;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', serif; 
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position:fixed;
+    font-family: 'Josefin Sans', serif;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    padding:10px 15px;
+    background-color: #333;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #929292;
+    font-family: 'Josefin Sans', serif;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    padding: 10px 15px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Josefin Sans', serif;
+}

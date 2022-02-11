@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #161616;  
+    font-family: 'Josefin Sans', serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', serif; 
+}
+#main{
+    padding: 30px 50px;
+    position: relative;
+    font-family: 'Josefin Sans', serif;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: 1440px;
+    background-position: right bottom;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position:fixed;
+    font-family: 'Josefin Sans', serif;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    padding:10px 15px;
+    background-color: #333;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    padding: 10px 15px;
+    color: white;
+    font-size: 12px;
+    font-family: 'Josefin Sans', serif;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #929292;
+    font-family: 'Josefin Sans', serif;
+}
+
+.name{
+    font-family: 'Josefin Sans', serif;
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    top: 40%
+}
+
+.name p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Josefin Sans', serif;
+}
+
+.name h1{
+    font-family: 'Josefin Sans', serif;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #292929;
+}
+
+.resume-btn{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 3px;
+    font-family: 'Josefin Sans', serif;
+}
+
+.resume-btn:hover{
+    background-color: #131313;
+    transition: all ease 0.5s;
+}
+
+.black-line{
+    width: 50%;
+    height: 15%;
+    align-self: end;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 0px;
+    left: 3%;
+    border-right: 1px solid rgba(41,41,41, 0.30);
+
+}
+
+.social{
+    position: absolute;
+    left: 85px;
+    bottom: 150px;
+    display: flex;
+}
+
+.social a{
+    margin: 6px 12px;
+}
+
+.social i{
+    font-size: 14px;
+    color: salmon;
+}
+
+.social a:hover i{
+    color: blue;
+    transition: all ease 0.5s;
+}
